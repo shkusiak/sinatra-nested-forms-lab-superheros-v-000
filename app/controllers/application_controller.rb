@@ -13,8 +13,8 @@ class App < Sinatra::Base
       @team_name = params[:team][:name]
       @team_motto = params[:team][:motto]
       @heros = []
-      @heros_powers = []
-      @heros_bios = []
+      @hero_powers = []
+      @hero_bios = []
       @team_members = params[:team][:members]
 
       @team_members.each do |hero|
